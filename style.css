@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,6 +10,7 @@
     background-color: #000000CC;
     display: flex;
     width: 100vw;
+    text-align: center;
 }
 
 .nav {
@@ -16,7 +18,7 @@
 }
 
 #logo {
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 #navlink>li {
@@ -39,7 +41,6 @@
 #nav-body {
     margin-top: 10px;
     text-align: center;
-    font-family: SF Pro Text;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -48,36 +49,394 @@
 }
 
 .new {
-    font-family: SF Pro Text;
     font-size: 10px;
     font-weight: 400;
     line-height: 12px;
     letter-spacing: -0.07999999821186066px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 250px;
     color: #BF4800;
 }
 
 #tag2 {
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 #section1 {
-    box-sizing: border-box;
     text-align: center;
+    width: 1512px;
+    height: 1134.5px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 #section1>div {
-    margin-top: 60px;
+    text-align: center;
+    width: 980px;
+    height: 1021.5px;
+}
+
+#new-notification {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+    color: #6E6E73;
+}
+
+#iphone14 {
+    font-size: 20px;
+}
+
+.multicolortext {
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.14399999380111694px;
+    margin-bottom: 26px;
+}
+
+#p1 {
+    color: #1D1D1F;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    margin-bottom: 31px;
+}
+
+.button {
+    background-color: #0071E3;
+    width: 61.2px;
+    height: 36px;
+    padding: 8px, 15.6px, 8px, 16px;
+    border-radius: 980px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 21px;
+    border-style: none;
+}
+
+.buy {
+    width: 45px;
+    height: 24px;
+    padding: 5px 11.784px 5px 11.969px;
+    border-radius: 980px;
+    background: #0071E3;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+.learn {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    color: #0066CC;
+}
+
+.phone {
+    color: #06C;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 0px;
+    ;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+#iphone14pro-photo {
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.982);
+
+}
+
+#section-2 {
+    padding-top: 5%;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#section-2>div>h1>span:first-child {
+    color: #86868B;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+
+}
+
+#pro14 {
+    width: 140px;
+    height: 20px;
+    top: 10px;
+    left: 164.59px;
+
+}
+
+#pro {
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+#para {
+    color: #F5F5F7;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+    margin-top: 24px;
+}
+
+#section-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100vw;
+    height: 830px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#section3 {
+    display: flex;
+    justify-content: center;
+}
+
+#section-3>div {
+    text-align: center;
+    margin-left: 10vw;
+}
+
+#section-3p1 {
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+#section-3p2 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+    margin-top: 25px;
+    margin-bottom: 26px;
+}
+
+#section3Phone {
+    margin-right: 12vw;
+}
+
+#section3>span {
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-bottom: 115px;
+    ;
+}
+
+#section3>span>a {
+    text-decoration: none;
+}
+
+#section4 {
+    background: #01012A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4>div {
+    margin-left: 115px;
+    text-align: center;
+
+}
+
+#section4>div>div {
+    color: #FFF;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100.009px;
+    /* 111.121% */
+    letter-spacing: -0.27px;
+}
+
+#section4>div>a {
+    color: #2997FF;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+    text-decoration: none;
+}
+
+#section5 {
+    margin-left: 3vw;
+    display: flex;
+    background-image: url("./photos/figure\ 24.svg");
+    width: 94vw;
+    height: 814px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+#section5>div {
+    position: relative;
+    right: 218px;
+    top: 302px;
+}
+
+#section5>div>p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: 0.216px;
+}
+
+#section5>div>h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+#section5>div>button {
+    display: flex;
+    width: 150px;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 980px;
+    background: #FFF;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 117.648% */
+    letter-spacing: -0.374px;
+    margin-top: 20px;
+}
+
+#section2>div>h2 {
+    text-align: center;
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+    margin-bottom: 65px;
 }
 
 #section2>table {
     margin-inline: 20vw;
 }
-td{
+
+td {
+    margin: auto;
     text-align: center;
     padding: 20px;
 }
-#section4>div{
-    display: inline-block;
+
+td {
+    margin: 5px;
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+.specification {
+    color: #6E6E73;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+.new-notifi {
+    color: #BF4800;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
 }
