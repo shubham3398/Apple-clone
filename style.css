@@ -1004,6 +1004,7 @@ li {
     align-items: center;
     padding: 20px;
 }
+
 #fourth-b>div>div {
     color: #1D1D1F;
     text-align: center;
@@ -1014,39 +1015,194 @@ li {
     letter-spacing: 0.231px;
 }
 
-#fifth-child{
+#fifth-child {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-#fifth-child>img{
+
+#fifth-child>img {
     padding: 3vw;
     width: 65%;
     margin-left: 5vw;
 }
-#fifth-child>div{
+
+#fifth-child>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
-#fifth-child>div>div{
+
+#fifth-child>div>div {
     margin: 1vw;
     color: #1D1D1F;
-text-align: center;
-font-size: 40px;
-font-weight: 700;
-line-height: 45.008px; /* 108.349% */
-letter-spacing: -0.144px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
 }
-#fifth-child>div>p{
+
+#fifth-child>div>p {
     color: #1D1D1F;
-text-align: center;
-font-size: 15px;
-font-weight: 400;
-line-height: 25.001px; /* 138.1% */
-letter-spacing: 0.231px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
+
+#terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#terms>p {
+    color: #6E6E73;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+    margin: 1vw;
+}
+
+#terms>div>p {
+    width: 75vw;
+    margin: auto;
+    color: #6E6E73;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#group-para {
+    border-bottom: 1px solid #6E6E73;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80vw;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+#footer-logo>img:nth-child(2) {
+    margin-inline: 1vw;
+}
+
+#footer-logo>h1 {
+    color: #424245;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+#main-footer {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin: 1vw;
+    margin-bottom: 40px;
+}
+
+.flex-col>h2 {
+    color: #1D1D1F;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+.flex-col>a {
+    text-decoration: none;
+    color: #424245;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+#contact-us {
+    border-bottom: 2px solid #6E6E73;
+    color: #6E6E73;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#contact-us>span {
+    color: #06C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+#terms-and-cond {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#terms-and-cond>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+#terms-and-cond>div>span {
+    margin-right: 2vw;
+    color: #424245;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+.right-border {
+    padding-inline: 2vw;
+    border-right: 1px solid #6E6E73;
+}
+.no-border{
+    padding-inline: 2vw;
+}
+#country{
+    color: #424245;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+}
+
 
 @media screen and (max-width:900px) {
     #section4 {
@@ -1080,13 +1236,26 @@ letter-spacing: 0.231px;
     #second-child {
         flex-direction: column;
     }
-    #third-child{
+
+    #third-child {
         flex-direction: column;
     }
-    #fourth-child{
+
+    #fourth-child {
         flex-direction: column;
     }
-    #fifth-child{
+
+    #fifth-child {
         flex-direction: column-reverse;
     }
+}
+
+@media screen and (max-width:480px){
+    nav{
+        flex-direction: column;
+    }
+    #navlink{
+        flex-direction: column;
+    }
+    
 }
