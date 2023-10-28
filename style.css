@@ -446,14 +446,13 @@ nav {
 #mainrow>td>img {
     width: 80%;
 }
+/* #iphone13-img{
+    width: 100%;
+} */
+
 
 td {
-    margin: auto;
-    text-align: center;
     padding: 20px;
-}
-
-td {
     margin: 5px;
     color: #1D1D1F;
     text-align: center;
